@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aniket's Portfolio</title>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Expletus+Sans:wght@600&family=Lato:wght@100&family=Montserrat:wght@200;300;400&family=Open+Sans:wght@300&family=Poppins:wght@700&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+
+    <!-- favicon -->
+    
+
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <section class="part1">
+        <nav id="nav-bar">
+            <section class="Logo">
+                <p class="Lato-light">Ani</p><p class="poppins">केत</p>
+            </section>
+    
+            <section class="nav-options">
+                <button class="nav-items" id="nav_items1"><a href="#nav-bar" class="nav-words">Home</a></button>
+                <button class="nav-items" id="nav_items2"><a href="#about-Aniket" class="nav-words">About</a></button>
+                <button class="nav-items" id="nav_items3"><a href="#aniket-project" class="nav-words">Project</a></button>
+                <button class="nav-items" id="nav_items4"><a href="#Coding-hub" class="nav-words">Work</a></button>
+            </section>
+    
+            <section class="nav-buttons">
+                
+                <button class="nav-btn" id="contact"><a href="#Aniket-contact">Contact me</a></button>
+                <button class="nav-btn" id="Resume" onclick="showResume()">Resume</button>
+            </section>
+        </nav>
+        <main>
+            <section class="hero-section">
+                <section class="name">
+                    <p class="naming Montserrat">Hi,My name is </p><p class="Expletus aniket">Aniket</p>
+                </section>
+                <p class="sans align">I am a <b>programmer</b> , <b>web developer</b> , <b>UI designer</b> <br>
+                do <b>competitive programming</b>  and also participates in <br><b>Hackathons</b></p>
+            </section>
+            <section class="side-tile-left" >
+            <p class="Montserrat side-tile-name" id="about-Aniket">ABOUT ME</p>
+            </section>
+            <section class="about-me">
+                <section class="about">
+                    <p class="sans">
+                        I am a 2nd year Undergraduate student currently pursuing my Computer
+                        Engineering degree at Fr. Conceicao Rodrigues Institute of Technology. 
+                        <br><br>
+                        <section style="line-height: 1.6;" class="sans">
+                        →Full Stack web developer and a       Competitive Programmer. <br>
+                        →I am expert in the following programming languages <br>
+                        &nbsp;&nbsp; Client-side Scripting : HTML, CSS, JavaScript. <br>
+                        &nbsp;&nbsp; Server-side Scripting : Java, C, C++ <br>
+                        →Expert in figma for UI designing. <br>
+                        →I also do freelance for website and application development. Minor 
+                        projects &nbsp;&nbsp;are also accepted. <br>
+                        → Coding since past 4 years.
+                        </section>
+                    </p>
+                </section>
+            </section>
+            <section class="languages">
+                <p class="Expletus expertise">MY EXPERTISE</p>
+                <img class="cp" src="Images/c.png" alt="c">
+                <img class="cpp" src="Images/c++.png" alt="c++">
+                <img class="java" src="Images/java.png" alt="java">
+                <img class="figma" src="Images/figma.png" alt="figma">
+                <img class="js" src="Images/js.png" alt="js">
+                <img class="html" src="Images/html-5.png" alt="html">
+                <img class="css" src="Images/css.png" alt="css">
+            </section>
+            <section class="side-tile-right" id="aniket-project">
+                <p class="Montserrat side-tile-name">Projects</p>
+            </section>
+            <section class="projects">
+                 <img src="Images/Lms.png" alt="Lms" class="LMS"> 
+                <p class="Montserrat lms-name">Learning Management System (LMS)</p>
+                <a href="www.google.com">
+                    <button class="view-project side-tile-name Montserrat" id="lms-button">View project</button>
+                </a>
+                <img src="Images/mL.png" alt="ML" class="mL">
+                <p class="Montserrat ml-name">Diabetes Prediction using Machine Learning</p>
+                <a href="www.google.com">
+                    <button class="view-project side-tile-name Montserrat" id="ml-button">View project</button>
+                </a>
+                <img src="Images/foodTruck.png" alt="foodTruck" class="foodTruck"> 
+                <p class="Montserrat food-name">UI of a Food Ordering website</p>
+                <a href="www.google.com">
+                    <button class="view-project side-tile-name Montserrat" id="food-button">View project</button>
+                </a>
+            </section>
+            <section class="side-tile-left" id="Coding-hub">
+                <p class="Montserrat side-tile-name">Coding Hub</p>
+                </section>
+            <section class="coding-hub">
+                <section class="code-web">
+    
+                    <section class="boxes">
+                        <img src="Images/github-sign.png" alt="github-sign" id="github">
+                        <p class="coding-hub-name sans" id="github-name"><a href="https://github.com/Aniketsahu28">GitHub</a> </p>
+                    </section>
+                    <section class="boxes" id="leetcode-box">
+                        <img src="Images/leetcode.jpg" alt="leetcode" id="leetcode">
+                        <p class="coding-hub-name sans" id="leetcode-name"><a href="https://leetcode.com/Aniket_sahu28/">LeetCode</a></p>
+                    </section>
+                    <section class="boxes" id="codechef-box">
+                        <img src="Images/codechef.png" alt="codechef" id="codechef">
+                        <p class="coding-hub-name sans" id="codechef-name"><a href="https://www.codechef.com/users/aniket_sahu_28">CodeChef</a></p>
+                    </section>
+                    <section class="boxes">
+                        <img src="Images/HackerRank.jpg" alt="HackerRank" id="hackerrank">
+                        <p class="coding-hub-name sans" id="hackerrank-name"><a href="https://www.hackerrank.com/aniketsahu1711">HackerRank</a></p>
+                    </section>
+                </section>
+            </section>
+            <section class="contact-above" id="Aniket-contact">
+                <p class="before-contact Montserrat" style="text-align: center;">
+                    That was all about me, <br>
+                    Further let's talk about <b>your business</b>
+                </p>
+                <button class="contact side-tile-name">Contact Me</button>
+            </section>
+            <section class="contact-section">
+                <div class="cont">
+                    <a href="https://www.linkedin.com/in/aniket-sahu-a99343228/"><img class="cont-img" id="linkedin" src="Images/linkedin.png" alt="linkedin"></a>
+    
+                    <img class="cont-img" id="gmail" src="Images/gmail.png" alt="gmail-img" onclick="gmailcall()">
+    
+                    <a href="https://www.instagram.com/_aniket_sahu_28_/"><img class="cont-img" id="instagram" src="Images/instagram.png" alt="instagram"></a>
+                    <section class="show-mail">
+                        <h4 class="Montserrat my_email" >aniketsahu1711@gmail.com</h4>
+                    </section>
+                </div>
+            </section>
+        </main>
+        
+        <footer>
+            <p class="Montserrat">© Copyright - Sahu Aniket Ramdayal</p>
+        </footer>
+    </section>
+    <section class="show-resume part2">
+        <img src="Images/Aniket_resume.jpg" alt="" class="resume-img">
+        <button class="download Montserrat">Download resume</button>
+    </section>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><img class="arrow" src="Images/right-arrow.png" alt=""></button>
+</body>
+<!-- JavaScript page link -->
+<script src="portfolio.js" charset="utf-8"></script>
+</html>

@@ -1,0 +1,563 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #E9E9E9;
+    display: flex;
+    justify-content: center;
+    overflow-x: hidden;
+}
+
+.part1 {
+    filter: blur(0px)
+}
+
+a,button{
+    cursor: pointer;
+}
+
+/* navbar section */
+
+nav{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    background-color:#D0CDCD;
+}
+
+.Lato-light{
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.poppins{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    position: relative;
+    bottom: 1px;
+}
+
+.Logo{
+    display: flex;
+    margin-left: 60px;
+}
+
+.nav-options{
+
+    margin: auto;
+    position: relative;
+    right: 58px;
+}
+
+.nav-items{
+    height: 38px;
+    width: 83px;
+    margin: 0px 15px 0px 15px;
+    background: #D0CDCD;
+    border:#D0CDCD;
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+}
+
+.nav-words:hover{
+    letter-spacing: 2px;
+    color: #4B4A52;
+}
+
+.nav-buttons{
+    position: absolute;
+    right: 4%;
+}
+
+#contact{
+    height: 39px;
+    width: 125px;
+    background-color: #4B4A52;
+    border: 2px solid black;
+    margin-right: 16px;
+    color: white;
+   font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    border-radius: 5px;
+}
+
+#contact:hover{
+    color: rgb(247, 156, 53);
+}
+
+#Resume{
+    height: 39px;
+    width: 108px;
+    background-color: white;
+    border: 2px solid #4B4A52;
+    font-family: 'Montserrat', sans-serif;
+    color: #4B4A52;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#Resume:hover{
+    color: rgb(247, 156, 53);
+}
+
+/* main section */
+
+.hero-section{
+    height: 650px;
+    background: url(Images/hero-section.png);
+    background-size: cover;
+    
+}
+
+.Expletus{
+    font-family: 'Expletus Sans', cursive;
+    color: #4B4A52;
+}
+
+.Montserrat{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.naming{
+    display: flex;
+    position: relative;
+    font-size: 47px;
+    font-weight: 10;
+}
+
+.aniket{
+    font-size: 74px;
+    position: relative;
+    bottom: 29px;
+    left: 13px;;
+}
+
+.sans{
+    font-family: 'Open Sans', sans-serif;
+}
+.align{
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    position: relative;
+    left: 14%;
+    top: 31%;
+}
+
+.name{
+    display: flex;
+    position: relative;
+    left: 11%;
+    top: 35%;
+}
+
+.side-tile-left{
+    height: 57px;
+    width: 285px;
+    background-color: #4B4A52;
+    margin: 17px 0px 17px 0px;
+    border-top-right-radius: 26.5px;
+    display: flex;
+}
+
+.side-tile-right{
+    height: 57px;
+    width: 285px;
+    background-color: #4B4A52;
+    margin: 17px 0px 17px 0px;
+    border-top-left-radius: 26.5px;
+    display: flex;
+    float: right
+}
+
+.side-tile-name{
+    color: white;
+    font-size: x-large;
+    margin: auto;
+}
+
+.about-me{
+    background-image: url(Images/about-me.png);
+    height: 650px;
+    background-size: cover;
+}
+
+.about{
+    width: 55%;
+    height: 68%;
+    position: relative;
+    left: 39%;
+    top: 120px;
+    font-size: x-large;
+    line-height: 1.6;
+}
+
+.languages{
+    height: 650px;
+    background-color: #D9D9D9;
+    margin-top: 17px;
+}
+
+.expertise{
+    position: relative;
+    left: 40%;
+    top: 44%;
+    font-size: xxx-large;
+}
+
+.css{
+    height: 158px;
+    position: relative;
+    right: 45%;
+    bottom: 1%;
+}
+
+.html{
+    height: 183px;
+    position: relative;
+    top: 21%;
+    right: 43%;
+}
+
+.figma{
+    height: 139px;
+    position: relative;
+    top: 44%;
+    right: 28%;
+}
+
+.java{
+    height: 190px;
+    position: relative;
+    left: 43%;
+}
+
+.js{
+    position: relative;
+    top: 44%;
+    height: 143px;
+    right: 22%;
+}
+
+.cpp{
+    position: relative;
+    height: 158px;
+    top: 45%;
+    left: 59%;
+}
+
+.cp{
+    height: 185px;
+    position: relative;
+    left: 76%;
+    top: 25%;
+}
+
+.projects{
+    height: 2011px;
+    background-color: #D9D9D9;
+    margin-top: 91px;
+}
+
+.LMS{
+    height: 510px;
+    position: relative;
+    left: 56%;
+    top: 5%;
+}
+
+.mL{
+    height: 510px;
+    position: relative;
+    top: 10%;
+    left: -7%;
+}
+
+.foodTruck{
+    height: 510px;
+    position: relative;
+    top: 15%;
+    left: 42%;
+}
+
+.lms-name{
+    font-size: x-large;
+    position: relative;
+    top: -11%;
+    left: 12%;
+    color: #4B4A52;
+}
+
+.view-project{
+    height: 46px;
+    width: 200px;
+    background-color: #4B4A52;
+    color: #D0CDCD;
+    border-radius: 8px;
+    border: none;
+}
+
+.view-project:hover{
+    border: 3px solid #00ffffc0;
+}
+
+#lms-button{
+    position: relative;
+    top: -33.5%;
+    left: 20%;
+}
+
+.ml-name{
+    font-size: x-large;
+    position: relative;
+    top: -7%;
+    left: 51%;
+    color: #4B4A52;
+}
+
+#ml-button{
+    position: relative;
+    top: -29.5%;
+    left: 62%;
+}
+
+#food-button{
+    position: relative;
+    top: -3%;
+    left: 21.5%;
+}
+
+.food-name{
+    font-size: x-large;
+    position: relative;
+    top: -4%;
+    left: 16%;
+    color: #4B4A52;
+}
+
+.coding-hub{
+    height: 554px;
+    background-color: #D9D9D9;
+    display: flex;
+    font-size: larger;
+}
+
+.code-web{
+    display: flex;
+    margin: auto;
+}
+#github{
+    position: relative;
+    top: 20px;
+    height: 121px;
+}
+
+#github-name{
+    position: relative;
+    top: 44px;
+}
+
+#leetcode{
+    height: 190px;
+    position: relative;
+    top: 18px;
+}
+
+#leetcode-name{
+    position: relative;
+    top: 2px;
+}
+
+#hackerrank{
+    height: 122px;
+    position: relative;
+    top: 19px;
+}
+
+#hackerrank-name{
+    position: relative;
+    top: 43px;
+}
+
+
+#codechef{
+    height: 131px;
+    position: relative;
+    top: 12px;
+}
+
+#codechef-name{
+    position: relative;
+    top: 34px;
+}
+
+.boxes{
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#codechef-box{
+    position: relative;
+    right: 23px;
+}
+
+#leetcode-box{
+    position: relative;
+    bottom: 27px;
+}
+
+.contact{
+    height: 45px;
+    width: 216px;
+    background-color: #4B4A52;
+    border-radius: 25px;
+    margin-top: 17px;
+    text-align: center;
+    border: none;
+}
+
+.contact-above{
+    align-items: center;
+    display: grid;
+    margin: 34px 0px 34px 0px;
+}
+
+.contact-section{
+    height: 364px;
+    background-color: #D9D9D9;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#linkedin{
+    height: 62px;
+}
+
+#gmail{
+    height: 74px;
+}
+
+#instagram{
+    height: 62px;
+}
+
+.cont-img{
+    margin: 0px 30px 0px 30px;
+}
+
+#gmail:hover{
+    cursor: pointer;
+}
+
+/* footer section */
+
+footer{
+    height: 100px;
+    background-color: #4B4A52;
+    margin: 17px 0px 17px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#D0CDCD;
+    font-size: small;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Other popups */
+
+.my_email{
+    font-weight: 300;
+}
+
+.show-mail{
+    position: relative;
+    top: 25px;
+    left: 62px;
+    border: 2px solid grey;
+    width: 265px;
+    height: 23px;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: #E9E9E9;
+    display: none;
+}
+
+.show-resume{
+    height: 1135px;
+    width: 855px;
+    position: absolute;
+    margin-top: 4%;
+    background-color: #aeaeae;
+    border: 2px solid #4B4A52;
+    border-radius: 10px;
+    top: 5px;
+    /* display: grid; */
+    justify-content: center;
+    display: none;
+}
+
+.resume-img{
+    height: 1000px;
+    display: block;
+    margin-top: 5%;
+    border: 2px solid #4B4A52;
+    border-radius: 5px;
+}
+
+.download{
+    height: 50px;
+    display: block;
+    margin: auto;
+    width: 190px;
+    margin-bottom: 3%;
+    border-radius: 7px;
+    border: 2px solid black;
+    font-size: large;
+    background-color: ghostwhite;
+}
+
+.download:hover{
+    background-color: #4B4A52;
+    color: ghostwhite;
+}
+
+#myBtn {
+    display: none; 
+    position: fixed;
+    bottom: 20px; 
+    right: 30px; 
+    z-index: 99; 
+    border: none; 
+    outline: none; 
+    background-color: rgb(178, 178, 178); 
+    color: white; 
+    cursor: pointer;
+    padding: 15px; 
+    padding-bottom: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    opacity: 0.8;
+    font-size: xx-large;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
+
+  .arrow{
+    height: 30px;
+    transform: rotate(-90deg);
+  }
